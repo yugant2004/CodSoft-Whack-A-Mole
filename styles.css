@@ -1,0 +1,46 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: url("./mar\ red.jpg");
+    background-size:cover;
+}
+header{
+    color: rgb(252, 204, 133);
+    font-size: larger;
+    text-shadow: 5px solid rgb(17, 17, 17);
+}
+#board{
+    height: 32rem;
+    width: 32rem;
+    background-color: bisque;
+    margin-top: 5rem;
+    margin-left: 58rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: url("./soil.avif");
+    border-radius: 2rem;
+    border: 3px solid rgb(251, 216, 167);
+    box-shadow: 3px;
+    background-size: cover;
+    padding:1rem auto;
+}
+
+#board div{
+    margin: 0 auto;
+    height: 8rem;
+    width: 8.099rem;
+    margin-top: 2.92rem;
+    background: url("./pipe-removebg-preview.png");
+    background-size: contain;
+}
+
+#board div img{
+    width: 8rem;
+    height: 8.2rem;
+    margin-top: -4.3rem;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
